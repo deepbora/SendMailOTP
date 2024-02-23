@@ -27,8 +27,8 @@ public class GmailSender {
         properties.put("mail.smtp.port", "587");
         properties.put("mail.smtp.host", "smtp.gmail.com");
 
-        String user = "techgyanaxom@gmail.com";
-        String pass = "qsfo pvls xwjd cnxh";
+        String user = "Enter your Email address";
+        String pass = "Enter your pass key";
 
 
         //session
