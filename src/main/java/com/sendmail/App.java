@@ -22,13 +22,14 @@ public class App {
 
     String OTP= String.valueOf(random);
     
-    //for scanning
+    //user Input(for dynamic mail address)
     System.out.println("Enter your Email address: ");
     Scanner scanner=new Scanner(System.in);
     String to= scanner.nextLine();
-	
-//	String to="deepbora435@gmail.com";
-	String from="techgyanaxom@gmail.com";
+
+		//for static mail(optional)
+//	String to="Enter the Reciver mail address ";
+	String from="Enter Sender mail address(means your mail address)";
 	String subject="Sending Email using Gmail";
 	String text="This is from deep  ,Your OTP is:"+ OTP;
 	
@@ -38,7 +39,7 @@ public class App {
 		
 		System.out.println("Email is send successfully..");
 		
-		//Check OTP
+		//Check OTP(validation)
 		System.out.println("Enter the OTP: ");
 		 String CheckOtp= scanner.nextLine();
 		 
