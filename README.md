@@ -1,6 +1,6 @@
-#Intro
+##Intro
 This is simple sending OTP from Email using Java Maven
-#Use
+##How to run
 1.install maven
 2.install eclipse
 3.Import the project
@@ -9,3 +9,6 @@ This is simple sending OTP from Email using Java Maven
 6.Create the key 
 7.Copy the key then past in GmailSender.java
 8.Run App.java file
+
+## license
+[MIT LICENSE](LICENSE)
